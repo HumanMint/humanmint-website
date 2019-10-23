@@ -1,4 +1,5 @@
-# WOW THIS IS SO COOL #
-YAYAYAYAYAYAYAYAYAY
+# it my website #
 
-if you're reading this ur not supposed to :)
+ahaha
+
+humanmint.com
