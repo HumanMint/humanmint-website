@@ -25,6 +25,13 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload landing">
+		<audio id="audio" src="sounds/bruh.mp3"></audio>
+		<script>
+			function bruh() {
+ 			   var audio = document.getElementById("audio");
+    			audio.play();
+			}
+		</script>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -52,7 +59,9 @@
 							</li>
 							<li><a href="resume.html">Resume</a></li>
 							<!-- I WANT TO MAKE THIS BUTTON PLAY THE BRUH SOUND -->
-							<li><a href="#" class="button primary">bruh</a></li>
+							<li>
+								<input type="button" value="BRUH" onclick="bruh()">
+							</li>
 						</ul>
 					</nav>
 				</header>
