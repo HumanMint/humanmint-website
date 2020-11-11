@@ -1,0 +1,310 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  /* Source: https://www.dailysabah.com/business/economy/turkish-fruit-producers-get-green-light-from-thailands-210m-apple-market */
+  background: url("../images/background_image.png") white;
+}
+
+
+/* header section */
+header {
+  padding: 10px;
+  border-radius: .25em;
+}
+/* logo */
+#logo {
+  width: 30%;
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+/* navigation page */
+
+
+nav {
+  background-color: #297c07;
+  border-radius: .5em;
+  border: 2px solid #005303;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+}
+
+
+nav ul li a:link, nav ul li a:visited {
+  color: white;
+}
+
+nav ul li a.current {
+  background-color: #005303;
+}
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #005303;
+  background-color: white;
+}
+
+nav ul {
+  margin: 1px;
+  padding: 2px 3px 2px 3px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  flex-grow: 1;
+}
+
+nav ul li a {
+  display: block;
+  padding: .5em 1em;
+  margin: .25em;
+}
+/* text decorations */
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.key_info {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* text links */
+a {
+  text-decoration: none;
+}
+
+
+.more_info a {
+  color: #d4d4d4;
+
+}
+
+/* main page */
+main {
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  margin: 30px;
+  border: 3px dashed;
+  border-color: #297c07;
+  border-radius: 20px;
+  color: #297c07;
+}
+
+/* styling class button */
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #297c07;
+  padding: 10px 25px 10px 25px;
+  margin: 10px;
+  color: white;
+}
+
+.button:hover, .button:focus, .button.active {
+  background-color: #881c05;
+  color: #297c07;
+}
+
+.button_special {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  padding: 5px;
+  margin: 10px;
+  color: #0178e6;
+  border-radius: .5em;
+  border: 4px;
+  border-color: white;
+
+}
+
+.button:hover, .button:focus, .button.active {
+  background-color: #881c05;
+  color: #297c07;
+
+}
+
+.button_special:hover, .button_special:focus, .button_special.active {
+  background-color: #881c05;
+  color: white;
+}
+
+
+.button p {
+  flex-grow: 1;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+/* for images */
+
+.bigimg {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-width: 95%;
+}
+
+.smallimg {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* index.html specific */
+
+footer {
+  background-color: #297c07;
+  padding: 10px 20px 10px 20px;
+  margin: 30px;
+  border: 3px dashed;
+  border-color: white;
+  border-radius: 20px;
+  color: white;
+}
+
+/* for the row class (used for flexbox)*/
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* the two classes below form a green box with rounded corners*/
+.general_info, .location {
+  flex-grow: 1;
+  background-color: #297c07;
+  color: white;
+  border-radius: 20px;
+  border: 2px dashed;
+  border-color: white;
+  margin: 10px;
+  padding: 2px 20px;
+  text-align: center;
+}
+
+.location ul li {
+  text-align: left;
+  list-style: none;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.general_info ul li {
+  margin-top: 6px;
+}
+
+/* for source descriptions and more information paragraphs, the light-grey color makes it less visible (because it is not important information) */
+.more_info {
+  color: #d4d4d4;
+  margin: 2px auto 5px auto;
+  font-style: italic;
+  font-size: 14px;
+  text-align: right;
+
+}
+
+/* for covid page */
+.covid {
+  color: white;
+  background-color: #0178e6;
+  border-color: white;
+}
+
+.covid .general_info {
+  background-color: #0e3fac;
+}
+
+/* for strong highlighted elements. */
+strong {
+  color: #dd9a90;
+}
+
+
+@media (max-width: 600px) {
+  #logo {
+    width: 20%;
+  }
+  nav ul {
+    font-size: 20px;
+    margin: 1px;
+    padding: 2px 3px 2px 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 0px;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .buttons {
+    display: block;
+  }
+
+  .bigimg {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    max-width: 95%;
+  }
+
+  .smallimg {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 4px;
+  }
+
+  .welcome {
+    width: 0%;
+    margin: 0%;
+  }
+
+  .welcome p {
+    font-size: 0px;
+    margin: 0px;
+  }
+
+
+}
